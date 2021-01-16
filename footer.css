@@ -1,0 +1,95 @@
+#footer{
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    background-color: #131e3c;
+    display: flex;
+}
+#footer .left{
+    width: 30%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#footer h1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#footer .left p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 40px;
+    line-height: 24px;
+}
+#footer .left .cc{
+    font-size: 16px;
+    color: #adb8d5;
+    padding-top: 0;
+}
+#footer .right{
+    position: relative;
+    padding-top: 2.5%;
+    padding-left: 5%;
+}
+#footer .right p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+#footer .right input{
+    width: 221px;
+    height: 33px;
+    color: white;
+    font-size: 14px;
+    background-color: #131e3c;
+    border: white 1px solid;
+    outline: none;
+}
+#footer .right ::placeholder{
+    color: #5a6481;
+    font-size: 14px;
+}
+#footer .right textarea{
+    width: 221px;
+    height: 104px;
+    color: white;
+    font-size: 14px;
+    background-color: #131e3c;
+    border: white 1px solid;
+    outline: none;
+    resize:none
+}
+#footer .right table{
+    width: 470px;
+    height: 147px;
+}
+#footer .right button{
+    width: 100px;
+    height: 34px;
+    font-size: 16px;
+    color: #131e3c;
+    background-color: #e8c9a5;
+    border: none;
+    position: absolute;
+    right: 9px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: .15s;
+}
+#footer .right button:hover{
+    background-color: burlywood;
+}
+@media (max-width:800px){
+    #footer{
+        width: 100%;
+        max-width: 800px;
+        height: 1000px;
+        background-color: #131e3c;
+        display: flex;
+        flex-direction:column;
+    }
+
+}
