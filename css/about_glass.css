@@ -51,7 +51,7 @@
     height: 415px;
     color: white;
     background:url("../images/advantage_bg.jpg")center;
-    background-attachment:scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 #about_glass_p2 .bg .text{
