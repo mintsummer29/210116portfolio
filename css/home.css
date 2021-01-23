@@ -279,6 +279,7 @@ body{
         margin: auto;
         background:url("../images/banner_bg.jpg")center;
         background-size: cover;
+        background-attachment:scroll;
     }
     .banner .text{
         position: absolute;
