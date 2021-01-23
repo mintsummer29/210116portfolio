@@ -1,0 +1,133 @@
+#about_us{
+    width: 100%;
+    max-width: 1920px;
+    height: 985px;
+    margin: auto;
+    background:url("../images/about_us_bg.jpg")center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about_us .bg .text{
+    text-align: center;
+    color: white;
+}
+#about_us .text h1{
+    font-size: 42px;
+    padding-top:  5%;
+    margin-bottom: 40px;
+}
+#about_us .text h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#about_us .text p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 30%;
+    margin: auto;
+}
+#about_us .bg{
+    width: 100%;
+    max-width: 1920px;
+    height: 430px;
+    background-color: #131e3c;
+    margin: auto;
+}
+#about_us .text2{
+    text-align: center;
+    margin-top: 11%;
+}
+#about_us .text2 h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#about_us .text2 p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 30%;
+    margin: auto;
+}
+@media (max-width:1200px){
+    #about_us{
+        width: 100%;
+        max-width: 1920px;
+        height: 800px;
+        margin: auto;
+        background:url("../images/about_us_bg.jpg")center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #about_us .text{
+        padding: 0 5%;
+    }
+    #about_us .text h1{
+        font-size: 42px;
+        padding-top:  10%;
+        margin-bottom: 40px;
+    }
+    #about_us .text p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        margin: auto;
+    }
+    #about_us .text2{
+        padding: 0 5%;
+        line-height: 30px;
+    }
+    #about_us .text2 h2{
+        font-size: 24px;
+        font-weight: bold;
+        padding-top:  5%;
+        margin-bottom: 20px;
+    }
+    #about_us .text2 p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:540px){
+    #about_us{
+        width: 100%;
+        max-width: 1920px;
+        height: 800px;
+        margin: auto;
+        background:url("../images/about_us_bg.jpg")center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #about_us .text{
+        padding: 0 10%;
+    }
+    #about_us .text h1{
+        font-size: 42px;
+        padding-top:  20%;
+        margin-bottom: 40px;
+    }
+    #about_us .text p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        margin: auto;
+    }
+    #about_us .text2{
+        padding: 0 20px;
+        line-height: 30px;
+    }
+    #about_us .text2 h2{
+        font-size: 24px;
+        font-weight: bold;
+        padding-top:  15%;
+        margin-bottom: 20px;
+    }
+    #about_us .text2 p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        margin: auto;
+    }
+}

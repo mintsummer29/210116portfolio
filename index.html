@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="about_us.css">
-    <link rel="stylesheet" href="about_glass.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about_us.css">
+    <link rel="stylesheet" href="css/about_glass.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>數位彩釉強化玻璃</title>
 </head>
 <body ondragstart="return false;" oncontextmenu="return false;">
+    <input type="checkbox" name="" id="menu_control">
     <div class="header">
         <a class="logo" href=""><img src="images\logo.jpg" alt=""></a>
+        <label for="menu_control">
+            <div class="menu_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </label>
         <nav>
             <a href="">首頁</a>
             <a href="#about_us">關於我們</a>
@@ -22,11 +30,9 @@
         </nav>
     </div>
     <div class="banner">
-         <div class="text">
+        <div class="text">
             <h1>新瀚數位彩釉強化玻璃公司</h1>
-            <p>致力於推廣非常新穎的建築外觀材料－彩釉玻璃
-            <br>此外也提供了各式營建玻璃、加工藝術玻璃等
-            <br>絕對能滿足您不同需求！</p>
+            <p>致力於推廣非常新穎的建築外觀材料－彩釉玻璃，此外也提供了各式營建玻璃、加工藝術玻璃等，絕對能滿足您不同需求！</p>
         </div>
         <div class="bg"></div>
     </div>
@@ -55,16 +61,12 @@
             <div class="text">
                 <h1>關於我們</h1>
                 <h2>關於新瀚</h2>
-                <p>數位彩釉玻璃是使用天然礦物質釉料製成的無機油墨
-                <br>電腦設計圖面完成後再透過數碼印刷機列印至玻璃表面
-                <br>經由鋼化加熱處理，將釉料永久附著於玻璃面
-                <br>現今廣泛的應用在國際知名建築外觀及室內空間設計中。</p>
+                <p>數位彩釉玻璃是使用天然礦物質釉料製成的無機油墨，電腦設計圖面完成後再透過數碼印刷機列印至玻璃表面，經由鋼化加熱處理，將釉料永久附著於玻璃面，現今廣泛的應用在國際知名建築外觀及室內空間設計中。</p>
             </div>
         </div>
         <div class="text2">
             <h2>我們提供多元服務，讓您擁有不同選擇!</h2>
-            <p>新瀚成立於2017年，不但致力推廣數位彩釉玻璃
-            <br>也提供建築營建工程玻璃及藝術加工玻璃。</p>
+            <p>新瀚成立於2017年，不但致力推廣數位彩釉玻，也提供建築營建工程玻璃及藝術加工玻璃。</p>
         </div>
     </div>
     <div id="about_glass_p1">
@@ -75,17 +77,17 @@
         <div class="box_wraper">
             <h2>製程</h2>
             <div class="box">
-                <img src="images\glass_1.jpg">
+                <img class="img" src="images\glass_1.jpg">
                 <h1>STEP 1</h1>
                  <p>使用天然礦物質釉料所製成的無機油墨</p>
             </div>
             <div class="box">
-                <img src="images\glass_2.jpg">
+                <img class="img" src="images\glass_2.jpg">
                 <h1>STEP 2</h1>
                 <p>透過電腦設計圖面完成後再透過數碼印刷機列印至玻璃表面</p>
             </div>
             <div class="box">
-                <img src="images\glass_3.jpg">
+                <img class="img" src="images\glass_3.jpg">
                 <h1>STEP 3</h1>
                 <p>經由鋼化加熱處理，將釉料永久附著於玻璃面</p>
             </div>
@@ -165,16 +167,16 @@
             </div>
             <div class="right">
                 <h1>聯絡我們：</h1>
-                <table>
-                    <tr>
-                        <td><p>輸入姓名*</p><input type="text" placeholder="姓名" ></td>
-                        <td rowspan="2"><p>輸入信息*</p><textarea placeholder="信息"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td><p>輸入Email*</p><input type="text" placeholder="Email" ></td>
-                    </tr>
-                </table>
-                <button>送 出</button>
+                <div class="table">
+                    <div class="p1">
+                        <p>輸入姓名*</p><input type="text" placeholder="姓名" >
+                        <p>輸入Email*</p><input type="text" placeholder="Email" >
+                    </div>
+                    <div class="p2">
+                        <p>輸入信息*</p><textarea placeholder="信息"></textarea>
+                        <button>送 出</button>
+                    </div>
+                </div>
             </div>
         </div>
     <div class="arrow">

@@ -1,0 +1,386 @@
+#about_glass_p1{
+    width: 100%;
+    padding-top: 40px;
+    max-width: 1920px;
+    height: 580px;
+    margin: auto;
+}
+#about_glass_p1 .tittle{
+    text-align: center;
+}
+#about_glass_p1 .tittle h1{
+    font-size: 42px;
+}
+#about_glass_p1 .tittle p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#about_glass_p1 .box_wraper{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+}
+#about_glass_p1 .box_wraper h2{
+    position: absolute;
+    font-size: 28px;
+}
+#about_glass_p1 .box_wraper .box{
+    width: 310px;
+    margin-top: 60px;
+}
+#about_glass_p1 .box_wraper .box h1{
+    font-size: 30px;
+    color: #1f3f81;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#about_glass_p1 .box_wraper .box p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+#about_glass_p2{
+    position: relative;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 415px;
+    color: white;
+    background:url("../images/advantage_bg.jpg")center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about_glass_p2 .bg .text{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#about_glass_p2 .bg .text h1{
+    font-size: 28px;
+}
+#about_glass_p2 .bg .text p{
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+#about_glass_p2 .bg{
+    width: 42%;
+    height: 415px;
+    background-color: #131e3c;
+    opacity: .9;
+}
+#about_glass_p2 ul.text{
+    list-style-type:decimal;
+    line-height: 28px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#about_glass_p3{
+    width: 100%;
+    max-width: 1920px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4eee8;
+}
+#about_glass_p3 .box{
+    width: 25%;
+    height: 50%;
+}
+#about_glass_p3 .box_img{
+    position: relative;
+    width: 25%;
+    height: 50%;
+}
+#about_glass_p3 .box_img .text{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, .6);
+    width: 100%;
+    line-height: 350px;
+    text-align: center;
+    opacity: 0;
+    transition-duration: .15s;
+}
+#about_glass_p3 .box_img .text:hover{
+    opacity: 1;
+}
+#about_glass_p3 .box_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#about_glass_p3 .box .text{
+    height: 100%;
+    margin-left: 20%;
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about_glass_p3 .box .text h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+#about_glass_p3 .box .text h2{
+    font-size: 22px;
+    color: #b88d5b;
+    padding-top: 5px;
+}
+#about_glass_p3 .box .text p{
+    font-size: 16px;
+    padding-top: 25px;
+}
+@media (max-width:1200px){
+    #about_glass_p1{
+        width: 100%;
+        padding-top: 40px;
+        max-width: 1920px;
+        height: 580px;
+        margin: auto;
+    }
+    #about_glass_p1 .tittle{
+        text-align: center;
+    }
+    #about_glass_p1 .tittle h1{
+        font-size: 42px;
+    }
+    #about_glass_p1 .tittle p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #about_glass_p1 .box_wraper{
+        display: flex;
+        justify-content:space-between;
+        width: 600px;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #about_glass_p1 .box_wraper h2{
+        position: absolute;
+        font-size: 28px;
+    }
+    #about_glass_p1 .box_wraper .box{
+        width: 200px;
+        margin: 60px 2%;
+    }
+    #about_glass_p1 .box_wraper .box .img{
+        width: 100%;
+    }
+    #about_glass_p1 .box_wraper .box h1{
+        font-size: 30px;
+        color: #1f3f81;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    #about_glass_p1 .box_wraper .box p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    #about_glass_p2{
+        position: relative;
+        margin: auto;
+        display: flex;
+        width: 100%;
+        max-width: 1920px;
+        height: 415px;
+        color: white;
+        background:url("../images/advantage_bg.jpg")center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #about_glass_p2 .bg .text{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+    #about_glass_p2 .bg .text h1{
+        font-size: 28px;
+    }
+    #about_glass_p2 .bg .text p{
+        font-size: 22px;
+        font-weight: lighter;
+        margin-top: 10px;
+    }
+    #about_glass_p2 .bg{
+        width: 42%;
+        height: 415px;
+        background-color: #131e3c;
+        opacity: .9;
+    }
+    #about_glass_p2 ul.text{
+        list-style-type:decimal;
+        line-height: 28px;
+        margin: 10% 8%;
+    }
+    #about_glass_p3{
+        width: 100%;
+        max-width: 1920px;
+        height: 700px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f4eee8;
+    }
+    #about_glass_p3 .box{
+        width: 25%;
+        height: 50%;
+    }
+    #about_glass_p3 .box_img{
+        position: relative;
+        width: 25%;
+        height: 50%;
+    }
+    #about_glass_p3 .box_img .text{
+        position: absolute;
+        top: 0;
+        color: white;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0, .6);
+        width: 100%;
+        line-height: 350px;
+        text-align: center;
+        opacity: 0;
+        transition-duration: .15s;
+    }
+    #about_glass_p3 .box_img .text:hover{
+        opacity: 0;
+    }
+    #about_glass_p3 .box_img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #about_glass_p3 .box .text{
+        height: 100%;
+        margin-left: 20%;
+        margin-top: -5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #about_glass_p3 .box .text h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    #about_glass_p3 .box .text h2{
+        font-size: 22px;
+        color: #b88d5b;
+        padding-top: 5px;
+    }
+    #about_glass_p3 .box .text p{
+        font-size: 16px;
+        padding-top: 25px;
+    }
+}
+@media (max-width:540px){
+    #about_glass_p1{
+        width: 100%;
+        padding-top: 40px;
+        max-width: 800px;
+        height: 1300px;
+        margin: auto;
+    }
+    #about_glass_p1 .tittle h1{
+        font-size: 38px;
+        margin-top: 10%;
+    }
+    #about_glass_p1 .box_wraper{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #about_glass_p1 .box_wraper h2{
+        margin-left: 8%;
+        font-size: 22px;
+    }
+    #about_glass_p1 .box_wraper .box{
+        width: 310px;
+        margin:40px auto 0;
+    }
+    #about_glass_p2 .bg .text{
+        position: absolute;
+        top: 10%;
+        left: 8%;
+        -webkit-writing-mode: vertical-lr;
+        writing-mode: vertical-lr ;
+    }
+    #about_glass_p2 .bg .text h1{
+        font-size: 28px;
+        display: inline;
+    }
+    #about_glass_p2 .bg .text p{
+        font-size: 16px;
+        font-weight: lighter;
+        margin-top: 10px;
+        display: inline;
+    }
+    #about_glass_p2 .bg{
+        width: 50%;
+        height: 415px;
+        background-color: #131e3c;
+        opacity: .9;
+    }
+    #about_glass_p2 ul.text{
+        list-style-type:decimal;
+        line-height: 28px;
+        margin:10% 5% 0 10% ;
+    }
+    #about_glass_p3{
+        width: 100%;
+        max-width: 1920px;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f4eee8;
+    }
+    #about_glass_p3 .box_img .text{
+        position: absolute;
+        top: 0;
+        color: white;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0, .6);
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        opacity: 0;
+        transition-duration: .15s;
+    }
+    #about_glass_p3 .box .text{
+        height: 100%;
+        margin-left: 18%;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -webkit-writing-mode: vertical-lr;
+        writing-mode: vertical-lr;
+    }
+    #about_glass_p3 .box .text h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #about_glass_p3 .box .text h2{
+        font-size: 16px;
+        color: #b88d5b;
+        padding-top: 0px;
+        margin-left: 1%;
+    }
+    #about_glass_p3 .box .text p{
+        font-size: 12px;
+        padding-top: 0px;
+        margin-left: 1%;
+    }
+}
