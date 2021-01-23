@@ -92,8 +92,7 @@
 }
 @media (max-width:540px){
     #about_us{
-        width: 100%;
-        max-width: 1920px;
+        max-width: 100%;
         height: 800px;
         margin: auto;
         background:url("../images/about_us_bg.jpg")center;
