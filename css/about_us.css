@@ -56,7 +56,7 @@
         height: 800px;
         margin: auto;
         background:url("../images/about_us_bg.jpg")center;
-        background-attachment: fixed;
+        background-attachment:scroll;
         background-size: cover;
     }
     #about_us .text{
@@ -97,7 +97,7 @@
         height: 800px;
         margin: auto;
         background:url("../images/about_us_bg.jpg")center;
-        background-attachment: fixed;
+        background-attachment:scroll;
         background-size: cover;
     }
     #about_us .text{

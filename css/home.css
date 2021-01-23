@@ -139,7 +139,7 @@ body{
         height: 600px;
         margin: auto;
         background:url("../images/banner_bg.jpg")center;
-        background-attachment: fixed;
+        background-attachment:scroll;
         background-size: cover;
     }
     .banner .text{
@@ -278,8 +278,8 @@ body{
         height: 600px;
         margin: auto;
         background:url("../images/banner_bg.jpg")center;
-        background-size: cover;
         background-attachment:scroll;
+        background-size: cover;
     }
     .banner .text{
         position: absolute;
