@@ -196,7 +196,7 @@ body{
         margin: 0;
     }
 }
-@media (max-width:540px){
+@media (-webkit-min-device-pixel-ratio: 2), (max-width:540px){
     #menu_control{
         position: absolute;
         opacity: 0;
