@@ -273,10 +273,12 @@ body{
         border-bottom: 1px solid #1e2e5c;
     }
     .banner{
-        max-width: 100%;
+        width: 100%;
+        max-width: 1200px;
         height: 600px;
         margin: auto;
         background:url("../images/banner_bg.jpg")center;
+        background-attachment: fixed;
         background-size: cover;
     }
     .banner .text{
@@ -288,8 +290,9 @@ body{
         width: 80%;
     }
     .banner .bg{
+        width: 100%;
+        max-width: 1200px;
         height: 600px;
-        max-width: 100%;
         background-color:#131e3c;
         opacity: .8;
     }
