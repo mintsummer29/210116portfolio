@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 body{
     font-family:微軟正黑體!important;
@@ -112,6 +113,7 @@ body{
     width: 35%;
     max-width: 330px;
     min-width: 160px;
+    animation: effect1 1s ;
 }
 .arrow{
     position: fixed;
