@@ -1,13 +1,14 @@
 html{
     scroll-behavior: smooth;
-    overflow:auto;
+    /*overflow:auto;
+    overflow-x: hidden;*/
+  }
+body{
+    font-family:微軟正黑體!important;
     overflow-x: hidden;
     height: 100%;
     width: 100%;
     transform: translate3d(0,0,0);
-  }
-body{
-    font-family:微軟正黑體!important;
 }
 #menu_control{
     position: absolute;
