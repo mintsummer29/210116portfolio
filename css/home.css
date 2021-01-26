@@ -1,15 +1,12 @@
-*{
-    touch-action: none;
-}
 html{
     scroll-behavior: smooth;
-    /*overflow:auto;
-    overflow-x: hidden;*/
+    overflow:auto;
+    overflow-x: hidden;
   }
 body{
     font-family:微軟正黑體!important;
-    overflow-x: scroll;
-    touch-action: pan-x;
+    overflow:auto;
+    overflow-x: hidden;
 }
 #menu_control{
     position: absolute;
