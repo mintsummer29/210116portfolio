@@ -5,7 +5,6 @@ html{
   }
 body{
     font-family:微軟正黑體!important;
-    overflow:auto;
     overflow-x: hidden;
 }
 #menu_control{
