@@ -120,7 +120,7 @@ body{
     position: fixed;
     bottom: 40px;
     right: 60px;
-    z-index: 9;
+    z-index: 2;
 }
 .arrow a{
     height: 45px;
@@ -130,10 +130,8 @@ body{
     display: block;
     border-radius: 50px;
 }
-.arrow a span{
-    color: #f2f2f2;
-    font-size: 18px;
-    line-height: 45px;
+.arrow img{
+    margin-top: 8px;
 }
 @media (max-width:1200px){
     .banner{
