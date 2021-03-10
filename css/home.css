@@ -129,9 +129,7 @@ body{
     background: rgb(199, 158, 105 ,80%);
     display: block;
     border-radius: 50px;
-}
-.arrow img{
-    margin-top: 8px;
+    line-height: 45px;
 }
 @media (max-width:1200px){
     .banner{
